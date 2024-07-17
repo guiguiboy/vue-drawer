@@ -1,0 +1,41 @@
+{
+  "name": "vue-drawer",
+  "version": "0.0.1",
+  "description": "A Drawer component written in Vue 3 composition API and typescript",
+  "main": "./dist/vue-drawer.umd.js",
+  "module": "./dist/vue-drawer.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-drawer.esm.js",
+      "require": "./dist/vue-drawer.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "serve": "vite preview"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "drawer",
+    "vue-drawer",
+    "library"
+  ],
+  "author": "Guillaume BRETOU",
+  "peerDependencies": {
+    "vue": "^3.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.0.0",
+    "vue": "^3.3.0"
+  }
+}
