@@ -8,34 +8,64 @@ It has he following behavior:
 
 # Usage 
 
+## Install it
+
 ```
+#If using yarn
+yarn add vue3-drawer
+
+#If using npm
+npm i vue3-drawer
+
+#If using pnpm
+pnpm add vue3-drawer
+```
+
+## In your entrypoint, import the CSS
+
+```
+//main.ts
+
+import 'vue3-drawer/style.css'
+
+```
+
+## Then import and use the component as you wish
+
+```
+<script setup lang="ts">
+import { VueDrawer } from 'vue3-drawer'
+...
+
+//declare model
+const isDrawerOpen: Ref<boolean> = ref(false)
+
+</script>
+
+<template>
+  ...
+  
   <VueDrawer
-    v-model="isOpened"
+    v-model="isDrawerOpen"
     position="right"
     background-color="#CCC"
   >
     Slot content goes here
   </VueDrawer>
+</template>
 ```
 
 
-# Development
+# Contributing
 
-Run 
+Run dev server:
 ```
  pnpm run dev
 ```
 
-# Build
+Build using:
 
-Run
 ```
  pnpm run build
 ```
-
-
-# Thanks
-
-* https://blog.ayitinya.me/articles/how-to-create-and-publish-vue-component-to-npm
-for providing step by step howto to publish package to npm
 
