@@ -7,8 +7,8 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/vue-drawer.esm.js",
-      "require": "./dist/vue-drawer.js"
+      "import": "./dist/vue-drawer.mjs",
+      "require": "./dist/vue-drawer.umd.js"
     }
   },
   "files": [
