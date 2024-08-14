@@ -10,7 +10,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, "src/index.ts"),
       name: "VueDrawer",
-      fileName: "vue-drawer",
+      fileName: "vue3-drawer",
     },
     rollupOptions: {
       external: ["vue"],

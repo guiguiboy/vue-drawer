@@ -1,15 +1,15 @@
 {
   "name": "vue3-drawer",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "description": "A Drawer component written in Vue 3 composition API and typescript",
-  "main": "./dist/vue-drawer.umd.js",
-  "module": "./dist/vue-drawer.js",
+  "main": "./dist/vue3-drawer.umd.js",
+  "module": "./dist/vue3-drawer.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/vue-drawer.js",
-      "require": "./dist/vue-drawer.umd.js"
+      "import": "./dist/vue3-drawer.js",
+      "require": "./dist/vue3-drawer.umd.js"
     }
   },
   "files": [
